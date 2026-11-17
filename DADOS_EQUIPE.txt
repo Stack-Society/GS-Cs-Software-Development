@@ -1,0 +1,14 @@
+Projeto: AprendIA
+Disciplina: C# Software Development
+Turma: 3ESPA
+
+Integrantes (nome completo e RM):
+Leonardo Fernandes Mesquita - 559623
+Vitor de Lima Domingues - 561008
+Giovanni Romano Provazi - 560434
+Caio Berardo de Araújo - 560357
+Felipe Carlos Abreu - 559476
+
+Abrangência dos exemplos: Brasil inteiro, sem cidade ou bairro delimitado.
+Pessoas beneficiadas: alunos em alfabetização do 1º ao 5º ano e seus professores, em todo o Brasil.
+Link do repositório GitHub: https://github.com/Stack-Society/GS-Cs-Software-Development
