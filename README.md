@@ -76,6 +76,16 @@ As [evidências de funcionamento](evidencias/README.md) incluem a saída das ver
 
 O aplicativo não consulta currículo externo, não mede a evolução automaticamente e não foi testado com alunos ou professores reais. Seu uso com esse público deverá ser validado pela equipe antes de afirmar impacto na comunidade.
 
+## Versionamento
+
+O projeto segue o [Versionamento Semântico](https://semver.org/lang/pt-BR/), no formato `MAJOR.MINOR.PATCH`:
+
+- **MAJOR:** mudança incompatível com a versão anterior, como um novo formato do histórico JSON que não lê os arquivos antigos;
+- **MINOR:** nova funcionalidade ou documentação, compatível com a versão anterior;
+- **PATCH:** correção de erro, sem funcionalidade nova.
+
+Cada alteração é feita numa branch própria, criada a partir da `main`, e entra por pull request. Depois do merge, o commit resultante recebe a tag `vMAJOR.MINOR.PATCH`. A versão atual também está no `AprendIA.csproj` (`<Version>`), e as mudanças de cada versão estão no [CHANGELOG](CHANGELOG.md).
+
 ## Referências de contexto
 
 BNCC; SAEB; Compromisso Nacional Criança Alfabetizada (MEC). As questões e metas deste protótipo não foram extraídas desses materiais nem validadas por eles.
